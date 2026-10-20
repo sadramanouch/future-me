@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Future Me",
+    "slug": "future-me",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#0F1419",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.futureme",
+      "buildNumber": "10",
+      "deploymentTarget": "15.0",
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "infoPlist": {
+        "NSSpeechRecognitionUsageDescription": "This app uses speech recognition to let you speak your answers instead of typing.",
+        "NSMicrophoneUsageDescription": "This app needs microphone access to transcribe your voice into text.",
+        "NSPhotoLibraryUsageDescription": "This app does not access your photos."
+      }
+    },
+    "android": {
+      "package": "com.example.futureme"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "plugins": [
+      "@react-native-voice/voice",
+      [
+        "expo-notifications",
+        {
+          "sounds": []
+        }
+      ]
+    ]
+  }
+}

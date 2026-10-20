@@ -1,0 +1,22 @@
+node_modules/
+.expo/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+.env
+.env.local
+*.db
+
+# Local data, private configuration and native build output
+.env.*
+!.env.example
+*.db-*
+*.sqlite*
+ios/
+android/
