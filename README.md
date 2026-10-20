@@ -84,6 +84,10 @@ integration is certified by the local checks.
 
 ## Contribute
 
+Start with [the offline development flow](https://github.com/sadramanouch/future-me/issues/2),
+[dependency migration](https://github.com/sadramanouch/future-me/issues/1), or
+[privacy and user-isolation tests](https://github.com/sadramanouch/future-me/issues/3).
+
 Start with the reproducible local setup, synthetic onboarding fixtures, a
 development path without the payment gate, accessible forms, or privacy tests.
 Larger priorities are the SDK upgrade, secure token storage and deletion/export
@@ -92,3 +96,6 @@ controls. Open a focused proposal before changing the persona or memory model.
 See [security reporting](SECURITY.md), [community conduct](CODE_OF_CONDUCT.md)
 and [the MIT license](LICENSE). Third-party packages and model weights retain
 their own terms; do not commit personal data or service credentials.
+
+Read [our community charter](GOVERNANCE.md): fork freely, propose focused PRs,
+keep attribution, and earn stewardship through reviewed contributions.
