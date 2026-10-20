@@ -20,7 +20,8 @@
       "infoPlist": {
         "NSSpeechRecognitionUsageDescription": "This app uses speech recognition to let you speak your answers instead of typing.",
         "NSMicrophoneUsageDescription": "This app needs microphone access to transcribe your voice into text.",
-        "NSPhotoLibraryUsageDescription": "This app does not access your photos."
+        "NSPhotoLibraryUsageDescription": "Select an optional profile or future-self image. Selected images may be processed by the configured server.",
+        "NSCameraUsageDescription": "Take an optional photo for your profile or future-self image."
       }
     },
     "android": {
